@@ -1,19 +1,18 @@
-import Analytics from "./Components/Analytics";
-import Cards from "./Components/Cards";
-import Footer from "./Components/Footer";
-import Home from "./Components/Home";
-import Navbar from "./Components/Navbar";
-import Newsletter from "./Components/Newsletter";
+import About from "./components/About";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import Portfolio from "./components/Portfolio";
+import SocioLinks from "./components/SocioLinks";
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <NavBar />
       <Home />
-      <Analytics />
-      <Newsletter />
-      <Cards />
-      <Footer />
+      <About />
+      <Portfolio />
+      <SocioLinks />
     </div>
   );
 }
