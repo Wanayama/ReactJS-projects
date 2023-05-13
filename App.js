@@ -1,13 +1,20 @@
-import Layout from './components/layout/Layout';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Analytics from "./Components/Analytics";
+import Cards from "./Components/Cards";
+import Footer from "./Components/Footer";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Newsletter from "./Components/Newsletter";
 
 function App() {
   return (
-    <>
-    <ToastContainer />
-    <Layout />
-    </>
+    <div className="App">
+      <Navbar />
+      <Home />
+      <Analytics />
+      <Newsletter />
+      <Cards />
+      <Footer />
+    </div>
   );
 }
 
